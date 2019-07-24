@@ -1,0 +1,63 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.info-tercera {
+  position: relative;
+  width: 375px;
+  height: 640px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+h2 {
+    position: absolute;
+    left: 24.8%;
+    right: 30.4%;
+    top: 26.99%;
+    bottom: 60.42;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: black;
+}
+.texto-monto-mensual {
+    position: absolute;
+    height: 30px;;
+    left: 25.80%;
+    right: 25.80%;
+    top: 42%;
+    bottom: 49;
+    background: #c4c4c4;
+    border-radius: 15px;
+}
+input::placeholder{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+}
+.controla-gastos {
+    position: absolute;
+    left: 30%;
+    right: 13%;
+    top: 65%;
+    bottom: 25%;
+    background: #ABACFF;
+    border-radius: 10px;
+    text-emphasis: center;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+
+
+
