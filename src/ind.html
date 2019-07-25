@@ -63,6 +63,9 @@
     </div>
 
     <!-- SECCIÓN DE INGRESAR MONTO -->
+    <div class="row">
+
+    
     <section class="pantalla-3">
             <div class="header-todos">
                 <h1>PERFIL</h1>
@@ -82,28 +85,51 @@
                         <input type="button" value="Ahorra" class="btn-ahorra">
                     </div>
         </section>
+    </div>
+
+    <!-- SECCIÓN AHORROS -->
+    <div class="row">
+    <section id="perfilAhorro">
+            <img src="perfil.png" alt="">
+            <h2>¿Cuanto quieres ahorrar?</h2>
+    
+
+
+<div class="box">
+    <div id="value"></div>
+</div>
+<div class="contenedor">
+    <input type="range" min="0%" max="100" value="50" class="slider" id="slider">
+    <button type="button" id="montoDia" class="boton-ahorro">Monto a ahorrar/dia</button>
+    <button type="button" id="sueldoMes" class="boton-ahorro">Sueldo/Mes</button>
+
+
+</div>
+</section>
+</div>
+
 <!-- MENÚ DE GASTOS -->
 
     ​
-<!--                 
-            <div class="row">
-                    <div class="col-lg-12 myform-cont">  
+    <section class="options">
             
-            <section class="buttons">
-                    <button class="button-options" id="button-entret">Entretenimiento</button>
-                    <button class="button-options" id="button-imp">Impuestos</button>
-                    <button class="button-options" id="button-health">Salud</button>
-                    <button class="button-options" id="button-clothe">Ropa y Calzado</button>
-                    <button class="button-options" id="button-food">Comida</button>
-                    <button class="button-options" id="button-transport">Transporte</button>              
-                    <button class="button-options" id="button-debts">Deudas</button>
-                    <button class="button-options" id="button-home">Casa</button>
-            
-                </section>
-                <button class="button-add">+</button>
-           
-            </div>  
-        </div> -->
+                <h2>Gastos</h2>
+                <figure class="gastos">
+                    <img src="../Icons/gastos2.png" width="20%">
+                </figure>
+                <br>
+                <div class="estilo-botones"> 
+                    <button class="button-options" id="button-entret" style="background-color:#ffff">Entretenimiento</button>
+                    <button class="button-options" id="button-imp" style="background-color:#ffff">Impuestos</button>
+                    <button class="button-options" id="button-health" style="background-color:#ffff">Salud</button>
+                    <button class="button-options" id="button-clothe" style="background-color:#ffff">Ropa y Calzado</button>
+                    <button class="button-options" id="button-food" style="background-color:#ffff">Comida</button>
+                    <button class="button-options" id="button-transport" style="background-color:#ffff">Transporte</button>
+                    <button class="button-options" id="button-debts" style="background-color:#ffff">Deudas</button>
+                    <button class="button-options" id="button-home" style="background-color:#ffff">Casa</button>
+                <button class="button-add" style="background-color: #d87093">+</button>
+            </div>
+         </section>
 <!-- SECCIÓN PARA CONTROL DE GASTOS  -->
 <div class="col-lg-12 myform-cont">
 <div class="row">

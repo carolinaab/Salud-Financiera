@@ -139,17 +139,96 @@ h1,h2{
    font-size: 20px;
 }
 
+/* SECCIÓN AHORROS */
+#perfilAhorro{
+    background-color: rgb(87, 144, 144);
+    height: 500px;
+}
 
+.contenedor{
+    width: 98%;
+    height: 20px;
+    
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.slider{
+    width: 100%;
+    height: 15px;
+    -webkit-appearance:none;
+    border-radius: 5px;
+    background-color:gray;
+    box-shadow: 0 3px 18px rgba(77, 75, 75, 0.6);
+    outline: none;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+.slider::-webkit-slider-thumb:hover{
+    box-shadow: 0 0 0 3px rgb(61, 61, 61),
+                0 0 0 6px white;
+}
+.slider:active::-webkit-slider-thumb{
+    box-shadow: 0 0 0 3px rgb(61, 61, 61),
+                0 0 0 6px white;
+}
+.box{
+    display: flex;
+    background-color: rgb(100, 148, 100);
+    height: 100px;
+    width: 100px;
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(-135deg);
+    
+    margin: 10px auto 50px;
+    left: 0;
+    right: 0;
+    top:100px;
+}
+#value{
+    display: flex;
+    color: white;
+    font-size: 35px;
+    transform: rotate(135deg);
+    align-items: center;
+   
+    top:25px;
+}
+.boton-ahorro{
+    margin: 40px;
+    display: block;
+    margin: 0 auto;
+   width: 20%;
+   height: 3em;
+   border-radius: 8px;
+   background: #F7E335;
+   font-weight: bold;
+   margin-left: 40%;
+   margin-top:1em;
+   outline: none;
+   font-size: 20px;
+}
 
 /* SECCIÓN DE MENÚ */
-/* .buttons{
+
+.buttons{
     justify-content: center;
     align-content: center;
     background-color: palevioletred;
 }
 ​
-.button-options{
-    -webkit-appearance: none;
+.estilo-botones{
+    
     cursor: pointer;
     background-color: #fff;
     color: #2b2b2b;
@@ -171,6 +250,6 @@ h1,h2{
     width: 60px;
     font-size: medium;
     font-weight: 600;
-    background-color: palevioletred;
+    background-color: #d87093;
     border:none;
-} */
+}
