@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* se agrega tipo de letra roboto para todo el body */
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+/* seccion de pantalla 3 */
+ .pantalla-3 {
+     position: relative;
+     width: 100%;
+     height: 100vh;
+ }
+.header-todos {
+    width: 100%;
+    height: 10vh;
+    background:#4C8CA8;
+    text-align: center;
+}
+.logo img {
+    
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.texto {
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   font-style: normal;
+
+}
+ .ingresa-monto input {
+   width: 20%;
+   height: 2em;
+   border-radius: 10px;
+   outline: none;
+   background-color:  #C4C4C4;
+   margin-left: 40%;
+   margin-top:1em;
+   font-size: 15px;
+   color:black;
+ }
+ .gastos input {
+     width: 50%;
+     height: 3em;
+     border-radius: 8px;
+     background: #ABACFF;
+     font-weight: bold;
+     margin-left: 25%;
+     margin-top:1em;
+     outline: none;
+ }
+
+ .ahorra input {
+    width: 50%;
+    height: 3em;
+    border-radius: 8px;
+    background: #F7E335;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top:1em;
+    outline: none;
+ }
+ 
