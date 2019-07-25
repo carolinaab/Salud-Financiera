@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MonFinTech</title>
+
+    <link rel="stylesheet" href="../src/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h2>REGISTRO</h2>
+</header>
+   
+
+
+<body>
+    <div class="my-content">
+        <div class="container">
+                <!-- SECCIÓN PARA INICIO DE SESIÓN -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="../Icons/logo-ganon.png" alt="logo"><br><br><br><br>
+                    
+                    <div class="mydescription"></div>
+                        <p>Ésta es una Web App que te ayudará a tener un control de tus ingresos, gastos y ahorros!</p>
+                    </div>
+
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 myform-cont">
+                
+                    <div class="myform-bottom">
+                         <div class="myform-top-left">
+                             <h3>Ingresa a nuestro sitio</h3>
+                            <p>Digita tu usuario y contraseña</p>
+                        </div>
+                    
+                        <div class="myform-top-right">
+                            <i class="fas fa-coins"></i>
+                        
+                            <form role="form" action="" method="POST" class="">
+                                 <div class="form-group">
+                                     <input type="text" name="form-username" placeholder="Usuario o correo electrónico" class="form-control" id="form-username">
+                                 </div>
+                                
+                                <div class="form-group">
+                                    <input type="password" name="form-pasword" placeholder="Contraseña" class="form-control" id="form-password" >
+                                    <p>¿Olvidaste tu contraseña?</p><br>
+                                    <a href="">Recuperar contraseña</a>
+                                </div>
+
+                                <button type="text" class="mybtn">Entrar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCIÓN DE INGRESAR MONTO -->
+    <div class="row">
+
+    
+    <section class="pantalla-3">
+            <div class="header-todos">
+                <h1>PERFIL</h1>
+            </div>
+                    
+    
+                    <div class="texto">
+                        <h2>Ingresa tu monto total mensual:</h2>
+                    </div>
+                    <div class="ingresa-monto">
+                        <input type="text" placeholder="$ 0.00">
+                    </div>
+                    <div class="gastos">
+                        <input type="button" value="Controla tus gastos" class="btn-gastos">
+                    </div>
+                    <div class="ahorra">
+                        <input type="button" value="Ahorra" class="btn-ahorra">
+                    </div>
+        </section>
+    </div>
+
+    <!-- SECCIÓN AHORROS -->
+    <div class="row">
+    <section id="perfilAhorro">
+            <img src="perfil.png" alt="">
+            <h2>¿Cuanto quieres ahorrar?</h2>
+    
+
+
+<div class="box">
+    <div id="value"></div>
+</div>
+<div class="contenedor">
+    <input type="range" min="0%" max="100" value="50" class="slider" id="slider">
+    <button type="button" id="montoDia" class="boton-ahorro">Monto a ahorrar/dia</button>
+    <button type="button" id="sueldoMes" class="boton-ahorro">Sueldo/Mes</button>
+
+
+</div>
+</section>
+</div>
+
+<!-- MENÚ DE GASTOS -->
+
+    ​
+    <section class="options">
+            
+                <h2>Gastos</h2>
+                <figure class="gastos">
+                    <img src="../Icons/gastos2.png" width="20%">
+                </figure>
+                <br>
+                <div class="estilo-botones"> 
+                    <button class="button-options" id="button-entret" style="background-color:#ffff">Entretenimiento</button>
+                    <button class="button-options" id="button-imp" style="background-color:#ffff">Impuestos</button>
+                    <button class="button-options" id="button-health" style="background-color:#ffff">Salud</button>
+                    <button class="button-options" id="button-clothe" style="background-color:#ffff">Ropa y Calzado</button>
+                    <button class="button-options" id="button-food" style="background-color:#ffff">Comida</button>
+                    <button class="button-options" id="button-transport" style="background-color:#ffff">Transporte</button>
+                    <button class="button-options" id="button-debts" style="background-color:#ffff">Deudas</button>
+                    <button class="button-options" id="button-home" style="background-color:#ffff">Casa</button>
+                <button class="button-add" style="background-color: #d87093">+</button>
+            </div>
+         </section>
+<!-- SECCIÓN PARA CONTROL DE GASTOS  -->
+<div class="col-lg-12 myform-cont">
+<div class="row">
+        <h2>COMIDA</h2>
+        <img src="../Icons/utensils-solid.png" alt="fork" class="img-gastos">
+    </div>
+    <div class="row"> 
+        <span class="table">
+            <!-- <i class="fas fa-utensils img gastos" style="color: #F47A08"></i> -->
+            
+        
+        <label><h3>Gasto Total: $ -</h3> </label><label id="gasto-total"></label>
+    </span>
+</div>
+
+<div class="row">
+    <div class="table">      
+        <span for="">Despensa</span>
+        <input type="text" class="gastos" id="desp-comi" placeholder="$ 0.00" onchange="sumar(this.value);">
+    </div>        
+</div>
+
+<div class="row">
+    <div class="table">
+        <span for="">Comida rápida</span>         
+        <input type="text" class="gastos" id="comi-rap" placeholder="$ 0.00" onchange="sumar(this.value);">
+    </div>              
+</div>
+
+<div class="row">
+    <div class="table">
+        <span for="">Restaurantes</span>                 
+        <input type="text" class="gastos" id="rest" placeholder="$ 0.00" onchange="sumar(this.value);">
+    </div>                
+</div>
+ </div>
+
+
+
+
+    <script src="../src/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
