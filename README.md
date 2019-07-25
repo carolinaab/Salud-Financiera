@@ -5,6 +5,7 @@ Hackaton Interno de Laboratoria sede CDMX,  en el cual un equipo integrado por c
 
 ## PRIMERA ENTREGA
 El equipo conformado por Adriana, Carolina, Guadalupe e Itzel, entregan en éste primer sprint, una presentación en la que se expone a una User persona, los problemas a resolver al iniciar una independencia financiera con el prototipo de alta fidelidad de nuestra Web App... **MonFinTech**.
+![persona] ("./user persona-2.png")
 
 Link de presentación realizada en canva:
 https://www.canva.com/design/DADglm3Bjhs/cuPZqch21xJ4QDZGnGsAMA/edit
