@@ -63,16 +63,39 @@
     </div>
 <!-- SECCIÓN PARA CONTROL DE GASTOS  -->
 <div class="row">
+        <div class="table">
+            <span>Gasto Total</span><span id="gasto-total"></span>
+            
+            
+        
+          
+           
+        </div>
+            
+        </div>
+<div class="row">
     <div class="table">
         <label for="">Despensa</label>
-    
-
-        <input type="number" name="desp-comi" class="gastos" id="desp-comi">
+        <input type="text" name="desp-comi" class="gastos" id="desp-comi" onchange="sumar(this.value);">
     </div>
-        <p>Despensa</p>
-    </div>
-
+        
 </div>
+
+<div class="row">
+    <div class="table">
+        <label for="">Comida rápida</label>         
+        <input type="text" name="comida-rapida" class="gastos" id="comi-rap" onchange="sumar(this.value);">
+    </div>              
+</div>
+
+<div class="row">
+    <div class="table">
+        <label for="">Restaurantes</label>                 
+        <input type="text" name="rest" class="gastos" id="rest" onchange="sumar(this.value);">
+    </div>                
+</div>
+
+
 
     <!-- <section>
         
@@ -89,5 +112,6 @@
     </section> -->
 
     <script src="../src/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

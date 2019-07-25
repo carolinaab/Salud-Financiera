@@ -28,17 +28,39 @@ h1,h2{
     margin: 20px 0 10px 0;
 }
 .myform-cont{
-    background-color: beige
+    background-color: beige;
+    
+    
 }
 .mycontent .mydescription{
     opacity: 0.8;
 }
 .myform-bottom .mybtn{
-    padding: 25px 25px 30px 25px;
+    margin: 10px;
+    padding: 10;
     background-color: rgb(117, 158, 21);
     border-radius: 20px;
+    width: 120px;
+    height: auto;
+}
+
+.form-group{
+    display: block;
+    align-content: center;
+    width: 250px;
+    height: 80px;
+    margin: 0px auto;
+    line-height: 15px;
+    text-align: center;
+    justify-content: center;
 }
 
 #mybtn{
     background-color: aquamarine;
+}
+
+#table{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 30% 30% 30%;
 }
