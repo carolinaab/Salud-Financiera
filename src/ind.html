@@ -62,54 +62,44 @@
         </div>
     </div>
 <!-- SECCIÓN PARA CONTROL DE GASTOS  -->
+<div class="col-lg-12 myform-cont">
 <div class="row">
-        <div class="table">
-            <span>Gasto Total</span><span id="gasto-total"></span>
-            
-            
-        
-          
-           
-        </div>
-            
-        </div>
-<div class="row">
-    <div class="table">
-        <label for="">Despensa</label>
-        <input type="text" name="desp-comi" class="gastos" id="desp-comi" onchange="sumar(this.value);">
+        <h2>COMIDA</h2>
+        <img src="../Icons/utensils-solid.png" alt="fork" class="img-gastos">
     </div>
+    <div class="row"> 
+        <span class="table">
+            <!-- <i class="fas fa-utensils img gastos" style="color: #F47A08"></i> -->
+            
         
+        <label><h3>Gasto Total: $ -</h3> </label><label id="gasto-total"></label>
+    </span>
+</div>
+
+<div class="row">
+    <div class="table">      
+        <span for="">Despensa</span>
+        <input type="text" class="gastos" id="desp-comi" placeholder="$ 0.00" onchange="sumar(this.value);">
+    </div>        
 </div>
 
 <div class="row">
     <div class="table">
-        <label for="">Comida rápida</label>         
-        <input type="text" name="comida-rapida" class="gastos" id="comi-rap" onchange="sumar(this.value);">
+        <span for="">Comida rápida</span>         
+        <input type="text" class="gastos" id="comi-rap" placeholder="$ 0.00" onchange="sumar(this.value);">
     </div>              
 </div>
 
 <div class="row">
     <div class="table">
-        <label for="">Restaurantes</label>                 
-        <input type="text" name="rest" class="gastos" id="rest" onchange="sumar(this.value);">
+        <span for="">Restaurantes</span>                 
+        <input type="text" class="gastos" id="rest" placeholder="$ 0.00" onchange="sumar(this.value);">
     </div>                
 </div>
+ </div>
 
 
 
-    <!-- <section>
-        
-        <img src="../Icons/logo-ganon.png" alt="logo">
-        
-        <h4>Ingresa:</h4>
-        <input type="text" name="" placeholder="Nombre o correo electrónico"> <br><br>
-
-        <h4>Contraseña:</h4>
-        <input type="text" name="" placeholder="Contraseña">
-
-        <h4>¿Olvidaste tu contraseña?</h4><br>
-        <a href="">Recuperar contraseña</a>
-    </section> -->
 
     <script src="../src/bootstrap-3.3.5/js/bootstrap.min.js"></script>
     <script src="main.js"></script>

@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 header{
     background: #4C8CA8;
+}
+h2{
+    background: #4C8CA8; 
 }
 body{
     line-height: 30px;
     text-align: center;
-    ;
+    font-family: 'Roboto', sans-serif;
 }
 *,*:hover,*:focus{
     text-decoration: none;
@@ -27,11 +31,7 @@ h1,h2{
 .mycontent .mydescription{
     margin: 20px 0 10px 0;
 }
-.myform-cont{
-    background-color: beige;
-    
-    
-}
+
 .mycontent .mydescription{
     opacity: 0.8;
 }
@@ -63,4 +63,11 @@ h1,h2{
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 30% 30% 30%;
+    align-content: flex-start;
+}
+.img-gastos{
+    margin: 0 ;
+    width: 50px;
+    height: 50px;
+    
 }
