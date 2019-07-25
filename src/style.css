@@ -1,0 +1,44 @@
+header{
+    background: #4C8CA8;
+}
+body{
+    line-height: 30px;
+    text-align: center;
+    ;
+}
+*,*:hover,*:focus{
+    text-decoration: none;
+}
+
+h1,h2{
+    margin-top: 10px;
+    line-height: 50px;
+}
+
+/*Contenido y formulario*/
+.myform-bottom{
+    border:2px solid rgb(175, 175, 175);
+}
+
+.mycontent{
+    padding: 100px 0 170px 0;
+}
+
+.mycontent .mydescription{
+    margin: 20px 0 10px 0;
+}
+.myform-cont{
+    background-color: beige
+}
+.mycontent .mydescription{
+    opacity: 0.8;
+}
+.myform-bottom .mybtn{
+    padding: 25px 25px 30px 25px;
+    background-color: rgb(117, 158, 21);
+    border-radius: 20px;
+}
+
+#mybtn{
+    background-color: aquamarine;
+}
