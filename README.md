@@ -13,7 +13,7 @@ https://www.canva.com/design/DADglm3Bjhs/cuPZqch21xJ4QDZGnGsAMA/edit
 
 Link de prototipo de alta fidelidad realizado en Figma:
 https://www.figma.com/proto/HRy1sCzVMv92NHTXYbbbzy/SaludFinanciera?node-id=22%3A5&scaling=scale-down
-
+![](./user-persona.png) 
 
 ## ANTECEDENTES 
 Para ésta primera entrega, lo que se realizó fue un trello en el que se indicaron nuestras metas a culminar para este primer día de entrega, nuestro prototipo de baja fidelidad; así como, el orden en el que llevaríamos a cabo la presentación. 
