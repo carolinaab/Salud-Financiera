@@ -1,63 +1,70 @@
 
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
-
-.info-tercera {
-  position: relative;
-  width: 375px;
-  height: 640px;
-}
-
+/* se agrega tipo de letra roboto para todo el body */
 body{
     font-family: 'Roboto', sans-serif;
-
-}
-h2 {
-    position: absolute;
-    left: 24.8%;
-    right: 30.4%;
-    top: 26.99%;
-    bottom: 60.42;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: black;
-}
-.texto-monto-mensual {
-    position: absolute;
-    height: 30px;;
-    left: 25.80%;
-    right: 25.80%;
-    top: 42%;
-    bottom: 49;
-    background: #c4c4c4;
-    border-radius: 15px;
-}
-input::placeholder{
-    position: absolute;
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 50px;
-}
-.controla-gastos {
-    position: absolute;
-    left: 30%;
-    right: 13%;
-    top: 65%;
-    bottom: 25%;
-    background: #ABACFF;
-    border-radius: 10px;
-    text-emphasis: center;
-    font-weight: bold;
-    font-size: 15px;
     
 }
 
 
+/* seccion de pantalla 3 */
+ .pantalla-3 {
+     position: relative;
+     width: 100%;
+     height: 100vh;
+ }
+.header-todos {
+    width: 100%;
+    height: 10vh;
+    background:#4C8CA8;
+    text-align: center;
+}
+.logo img {
+    
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.texto {
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   font-style: normal;
 
+}
+ .ingresa-monto input {
+   width: 20%;
+   height: 2em;
+   border-radius: 10px;
+   outline: none;
+   background-color:  #C4C4C4;
+   margin-left: 40%;
+   margin-top:1em;
+   font-size: 15px;
+   color:black;
+ }
+ .gastos input {
+     width: 50%;
+     height: 3em;
+     border-radius: 8px;
+     background: #ABACFF;
+     font-weight: bold;
+     margin-left: 25%;
+     margin-top:1em;
+     outline: none;
+ }
 
+ .ahorra input {
+    width: 50%;
+    height: 3em;
+    border-radius: 8px;
+    background: #F7E335;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top:1em;
+    outline: none;
+ }
+ 
